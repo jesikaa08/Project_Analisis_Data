@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import seaborn as sns
+import matplotlib 
 
 day_df = pd.read_csv("day.csv", delimiter=",")
 day_df.to_csv("all_data.csv", index=False)
